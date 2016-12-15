@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Putio.app Changelog</title>
+        <link>https://s3-eu-west-1.amazonaws.com/putio-mac-app/putio-app-appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.3.1</title>
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>Fix a nasty concurrency bug that affects some certain files.</li>
+                </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 6 Dec 2016 14:55:11 +0000</pubDate>
+            <enclosure sparkle:version="1.3.1" sparkle:dsaSignature="MC0CFHst0KDUNpfhehdnriy00AsBswDYAhUA3Vx73eJx6Z5UM5l/FmyuwpwBJkU=" length="8838113" url="https://s3-eu-west-1.amazonaws.com/putio-mac-app/Putio.dmg" type="application/octet-stream" />
+8814785
+        </item>
+        <item>
+            <title>Version 1.3</title>
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>Add logout option</li>
+                    <li>Pause/Resume toggle button</li>
+                    <li>Minor bugfixes</li>
+                </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 23 Nov 2016 14:55:11 +0000</pubDate>
+            <enclosure sparkle:version="1.3" sparkle:dsaSignature="MC0CFCjsHC5BmJF59rixP92oh2i3cxSjAhUAzVOlcOTDan+cQEy+DMeJ1Zx2FH4=" length="8814785" url="https://s3-eu-west-1.amazonaws.com/putio-mac-app/Putio.dmg" type="application/octet-stream" />
+8814785
+        </item>
+        <item>
+            <title>Version 1.2</title>
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>Bugfixes.</li>
+                </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 16 Nov 2016 17:21:11 +0000</pubDate>
+            <enclosure sparkle:version="1.2" sparkle:dsaSignature="MC4CFQDHZHeRDddX6C5mS9z3oqjj1WWI1QIVAMUFkB1W6g4VCesCr81tRLB18SgV" length="9420250" url="https://s3-eu-west-1.amazonaws.com/putio-mac-app/Putio.dmg" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.1</title>
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>Initial release.</li>
+                </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 8 Nov 2016 17:21:11 +0000</pubDate>
+            <enclosure sparkle:version="1.1" sparkle:dsaSignature="MCwCFFtdr3lRyaA6PJRogdHFfQWk1qOzAhQndibxWXel3YgJRtk2bNtmIP6/ow==" length="9420660" url="https://s3-eu-west-1.amazonaws.com/putio-mac-app/Putio.dmg" type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
