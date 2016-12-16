@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F00FA5D1DFACD4500DFDBD2 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 0F00FA5C1DFACD4500DFDBD2 /* Data */; };
+		0F2B3B3D1E040D80005C8018 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B3B3C1E040D80005C8018 /* AboutViewController.swift */; };
 		0F70CF2A1D64586B00CB2337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70CF291D64586B00CB2337 /* AppDelegate.swift */; };
 		0F70CF2E1D64586B00CB2337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F70CF2D1D64586B00CB2337 /* Assets.xcassets */; };
 		0F70CF311D64586B00CB2337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F70CF2F1D64586B00CB2337 /* Main.storyboard */; };
@@ -17,7 +18,8 @@
 
 /* Begin PBXFileReference section */
 		0F00FA5C1DFACD4500DFDBD2 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
-		0F70CF261D64586B00CB2337 /* Putio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Putio.app; path = "/Users/ibrahim/bluebox/putio-sync-dot-app/build/Debug/Putio.app"; sourceTree = "<absolute>"; };
+		0F2B3B391E040874005C8018 /* Putio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Putio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2B3B3C1E040D80005C8018 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		0F70CF291D64586B00CB2337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F70CF2D1D64586B00CB2337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F70CF301D64586B00CB2337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 				0F70CF281D64586B00CB2337 /* Putio */,
 				2CFE60CFF7D2406F2F6A416A /* Pods */,
 				1DD09DB20B4D5F18BC803A22 /* Frameworks */,
+				0F2B3B391E040874005C8018 /* Putio.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0F70CF291D64586B00CB2337 /* AppDelegate.swift */,
+				0F2B3B3C1E040D80005C8018 /* AboutViewController.swift */,
 				0F7FF1421D8042FF00ED7822 /* ServerTask.swift */,
 				0F70CF2F1D64586B00CB2337 /* Main.storyboard */,
 				0F70CF321D64586B00CB2337 /* Info.plist */,
@@ -99,7 +103,7 @@
 			);
 			name = Putio;
 			productName = Putio;
-			productReference = 0F70CF261D64586B00CB2337 /* Putio.app */;
+			productReference = 0F2B3B391E040874005C8018 /* Putio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2B3B3D1E040D80005C8018 /* AboutViewController.swift in Sources */,
 				0F7FF1431D8042FF00ED7822 /* ServerTask.swift in Sources */,
 				0F70CF2A1D64586B00CB2337 /* AppDelegate.swift in Sources */,
 			);

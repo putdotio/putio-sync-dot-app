@@ -16,19 +16,25 @@
                 </customObject>
                 <menu id="5Xg-wU-mno">
                     <items>
-                        <menuItem title="Open" id="4CU-3c-VI7">
+                        <menuItem title="Open Putio Sync..." id="4CU-3c-VI7">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="openClicked:" target="Voe-Tx-rLC" id="sST-dG-WX5"/>
                             </connections>
                         </menuItem>
+                        <menuItem isSeparatorItem="YES" id="hKi-Jo-dwL"/>
                         <menuItem title="Check for updates" id="Ybv-42-vaj">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="checkForUpdates:" target="fPz-Vi-3Wy" id="wyb-Od-LrG"/>
                             </connections>
                         </menuItem>
-                        <menuItem isSeparatorItem="YES" id="hKi-Jo-dwL"/>
+                        <menuItem title="About Putio Sync" id="PjB-5C-r3V">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <segue destination="xDs-ro-kgQ" kind="modal" id="EYD-kp-bla"/>
+                            </connections>
+                        </menuItem>
                         <menuItem title="Quit" id="eMQ-ru-lqq">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
@@ -693,6 +699,59 @@
             </objects>
             <point key="canvasLocation" x="-197" y="229"/>
         </scene>
+        <!--About-->
+        <scene sceneID="29J-Kh-jLK">
+            <objects>
+                <viewController title="About" id="xDs-ro-kgQ" customClass="AboutViewController" customModule="Putio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="4Yu-Kt-SsK">
+                        <rect key="frame" x="0.0" y="0.0" width="289" height="247"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3xx-14-pwP">
+                                <rect key="frame" x="82" y="102" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="0gh-AM-nBb"/>
+                                    <constraint firstAttribute="height" constant="125" id="BNK-C3-qLT"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="AppIcon" id="Oci-Et-GqE"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fg8-jK-Ze8">
+                                <rect key="frame" x="68" y="56" width="154" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Putio Sync" id="YIO-HJ-TDv">
+                                    <font key="font" metaFont="system" size="30"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JSR-xC-SmW">
+                                <rect key="frame" x="71" y="20" width="147" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="cBM-X1-BHl"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Version " id="KQb-bO-8Nn">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="JSR-xC-SmW" firstAttribute="leading" secondItem="4Yu-Kt-SsK" secondAttribute="leading" constant="73" id="69N-2X-7fp"/>
+                            <constraint firstItem="JSR-xC-SmW" firstAttribute="centerX" secondItem="3xx-14-pwP" secondAttribute="centerX" id="EQP-CN-Y4e"/>
+                            <constraint firstItem="3xx-14-pwP" firstAttribute="top" secondItem="4Yu-Kt-SsK" secondAttribute="top" constant="20" id="TTq-Vm-lpv"/>
+                            <constraint firstItem="3xx-14-pwP" firstAttribute="centerX" secondItem="4Yu-Kt-SsK" secondAttribute="centerX" id="VJF-OV-XAl"/>
+                            <constraint firstItem="JSR-xC-SmW" firstAttribute="top" secondItem="3xx-14-pwP" secondAttribute="bottom" constant="54" id="yiJ-RZ-iBT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="versionField" destination="JSR-xC-SmW" id="Afk-qu-PGD"/>
+                    </connections>
+                </viewController>
+                <customObject id="YTV-QH-KuE" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262.5" y="-21.5"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="6Qk-lT-CZD">
             <objects>
@@ -707,4 +766,7 @@
             <point key="canvasLocation" x="-197" y="698"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AppIcon" width="128" height="128"/>
+    </resources>
 </document>
