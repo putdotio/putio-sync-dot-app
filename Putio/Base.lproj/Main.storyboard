@@ -16,14 +16,14 @@
                 </customObject>
                 <menu id="5Xg-wU-mno">
                     <items>
-                        <menuItem title="Open Putio Sync..." id="4CU-3c-VI7">
+                        <menuItem title="Open Putio Sync" id="4CU-3c-VI7">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="openClicked:" target="Voe-Tx-rLC" id="sST-dG-WX5"/>
                             </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="hKi-Jo-dwL"/>
-                        <menuItem title="Check for updates" id="Ybv-42-vaj">
+                        <menuItem title="Check for Updates" id="Ybv-42-vaj">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="checkForUpdates:" target="fPz-Vi-3Wy" id="wyb-Od-LrG"/>
