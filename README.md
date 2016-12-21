@@ -1,6 +1,6 @@
 # putio-sync-dot-app
 
-*putio-sync-dot-app* is a convenient macOS app for your
+**putio-sync-dot-app** is a convenient macOS app for your
 [putio-sync](https://github.com/putdotio/putio-sync) application.
 
 ## Installation
